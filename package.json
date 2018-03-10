@@ -8,8 +8,13 @@
     "start": "node index"
   },
   "author": "AMZ",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angelmirandazambrana/node-express.git"
+  },
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
   }
 }
