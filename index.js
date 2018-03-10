@@ -12,6 +12,7 @@ app.use(morgan('dev'));
 app.use(bodyParser.json());
 
 app.use('/dishes', dishRouter);
+
 app.use(express.static(__dirname+'/public'));
 
 app.use((req, res, next)=> {
